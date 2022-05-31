@@ -1,0 +1,87 @@
+.judges {
+  background: #fff;
+  padding: 5vh 0;
+}
+.judges h2 {
+  color: #000;
+}
+
+.judges .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content;
+  row-gap: 20px;
+}
+.judges .grid div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.judges .grid img {
+  width: 60%;
+  margin: 5px;
+}
+.judges .grid div div {
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-family: "Thunder", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.judges .grid .avatar {
+  position: relative;
+}
+
+.judges .grid .avatar .second {
+  display: none;
+}
+.judges .grid .avatar svg {
+  position: absolute;
+  top: 0;
+  right: 19%;
+  transform-origin: top right;
+  transform: scale(0);
+  transition: transform 0.5s;
+}
+.judges .grid .avatar:hover svg {
+  transform: scale(1);
+}
+.judges .grid .avatar:hover .first {
+  display: none;
+}
+.judges .grid .avatar:hover .second {
+  display: block;
+}
+.criteria {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.criteria h2 {
+  color: #000;
+}
+.criteria p {
+  width: 70vw;
+  padding: 2em;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .judges .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .judges .grid div div {
+    font-size: 24px;
+  }
+  .judges .grid .avatar svg {
+    display: none;
+  }
+  .criteria p {
+    width: 80vw;
+    padding: 2em 0;
+    font-size: 16px;
+  }
+}
