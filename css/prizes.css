@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "GLD Display";
+  src: url("../font/Untitled.woff2");
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../font/Thunder.woff");
+}
+.prizes {
+  background: #5214ff;
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.prizes .content {
+  display: flex;
+}
+#my-scrollbar {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden !important;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+.prizes .grid {
+  padding: 1.25em 5em;
+  padding-right: 0;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: max-content;
+  row-gap: 2em;
+}
+.prizes .grid-title {
+  font-family: "GLD Display", sans-serif;
+  font-size: 5.5em;
+}
+.prizes .grid-title:nth-child(1),
+.prizes .grid-title:nth-child(5) {
+  color: white;
+}
+
+.prizes .grid-description {
+  font-size: 1.1rem;
+  padding: 0 1.2em;
+  /* color: #fff; */
+}
+.prizes .grid-description ul li {
+  padding-inline-start: 1ch;
+}
+.prizes .grid-description ul li::marker {
+  content: "□";
+  /* color: #fff; */
+}
+.crown-draw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-75deg);
+  transform-origin: center left;
+}
+.prizes .grid .first-prize {
+  position: relative;
+}
+.prizes img {
+  width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  .prizes {
+    padding: 5vh 0;
+  }
+  .prizes .grid {
+    padding: 1.25em 0;
+    width: 100vw;
+  }
+  .prizes .grid-title,
+  .prizes .grid .first-prize {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .prizes .grid-description {
+    font-size: 16px;
+    padding: 0;
+  }
+  .prizes img {
+    display: none;
+  }
+  .crown-draw {
+    display: none;
+  }
+}
