@@ -23,11 +23,11 @@ body {
   align-items: center;
   justify-content: center;
   /* background: #101C25; */
-  background: #fff;
+  background: #061b25;
 }
 #landing .title {
   text-transform: uppercase;
-  font-size: 10em;
+  font-size: 4em;
   font-family: "Reso";
   background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
   -webkit-background-clip: text;
@@ -36,11 +36,12 @@ body {
 #landing .description {
   width: 80%;
   padding: 5vh 5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: 1.3rem;
   background: -webkit-linear-gradient(90deg, #326199, #4fb1a1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #fcc055;
 }
@@ -54,7 +55,9 @@ body {
   margin: 0 7.5vw;
   padding: 10px 15px;
   font-size: 2rem;
-  border: 1px solid #df6e5b;
+  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 #landing .hack a {
   text-decoration: none;
@@ -75,7 +78,7 @@ lord-icon {
   min-height: 60vh;
   padding: 5vh 5vw;
   /* background: #101C25; */
-  background: #fff;
+  background: #061b25;
 }
 #we-are-sponsor .title {
   font-size: 3rem;
