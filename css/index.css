@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Reso";
+  src: url("../font/Reso-Bold.woff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,15 +22,27 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background: #101C25; */
+  background: #fff;
 }
 #landing .title {
   text-transform: uppercase;
-  font-size: 6em;
+  font-size: 10em;
+  font-family: "Reso";
+  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #landing .description {
   width: 80%;
   padding: 5vh 5vw;
-  font-size: 1.625rem;
+  font-size: 1.3rem;
+  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #fcc055;
 }
 #landing .hacks-wrapper {
   padding-top: 3em;
@@ -36,12 +53,12 @@ body {
 #landing .hacks-wrapper .hack {
   margin: 0 7.5vw;
   padding: 10px 15px;
-  font-size: 1.625rem;
-  border: 1px solid black;
+  font-size: 2rem;
+  border: 1px solid #df6e5b;
 }
 #landing .hack a {
   text-decoration: none;
-  color: #000;
+  color: #df6e5b;
 }
 #landing .scroll {
   position: absolute;
@@ -49,21 +66,29 @@ body {
   padding: 10px 30px;
   text-decoration: none;
   font-size: 1.5rem;
-  background: black;
+  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1);
 }
 lord-icon {
   transform: rotate(90deg);
 }
 #we-are-sponsor {
   min-height: 60vh;
-  margin: 5vh 5vw;
+  padding: 5vh 5vw;
+  /* background: #101C25; */
+  background: #fff;
 }
 #we-are-sponsor .title {
   font-size: 3rem;
   padding: 1em 0;
+  font-family: "Reso";
+  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #we-are-sponsor .description {
   font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcc055;
 }
 #we-are-sponsor .grid {
   width: 100%;
