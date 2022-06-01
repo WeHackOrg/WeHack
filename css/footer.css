@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   min-height: 20vh;
-  background: #fff;
+  background: #101C25;
   padding-top: 2vw;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -28,7 +28,7 @@ footer .links a {
   font-size: 1.1vw;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000;
+  color: #fcc055;
   margin-bottom: 10px;
   position: relative;
 }
@@ -46,8 +46,7 @@ footer .links a:hover:after {
   width: 100%;
 }
 footer .copyright {
-  background: #fff;
-  color: #000;
+  color: #fcc055;
   position: absolute;
   bottom: 5px;
   right: 10px;

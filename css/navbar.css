@@ -9,7 +9,6 @@ body {
   width: 100%;
   height: 100%;
 }
-/*nav li,
 nav a {
   font-size: 16px;
   color: black;
@@ -132,7 +131,7 @@ header .logo {
   width: 100%;
   z-index: 2;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #101C25;
   display: flex;
   align-items: center;
   position: absolute;
@@ -147,7 +146,7 @@ header .logo {
   text-transform: uppercase;
   float: left;
   display: block;
-  color: #000;
+  color: #fcc055;
   text-align: center;
   margin: 14px 20px;
   text-decoration: none;
@@ -181,7 +180,7 @@ header .logo {
   margin-right: 5vw;
 }
 #btn-change-lang span {
-  color: white;
+  color: #fcc055;
   font-size: 9px;
 }
 #btn-change-lang .checkbox {
@@ -204,7 +203,7 @@ header .logo {
 }
 
 #btn-change-lang .label .ball {
-  background-color: #fff;
+  background-color: #fcc055;
   border-radius: 50%;
   position: absolute;
   top: 2px;
