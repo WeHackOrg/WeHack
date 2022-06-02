@@ -29,20 +29,20 @@ body {
   /* background: #101C25; */
 }
 #landing .title {
-  text-transform: uppercase;
-  font-size: 3em;
+  font-size: 45px;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
-  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
+  /* background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: #101C25;
 }
 #landing .description {
   width: 80%;
-  padding: 5vh 5vw;
+  padding: 5vh 9vw;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 25px;
   background: -webkit-linear-gradient(90deg, #326199, #4fb1a1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,14 +57,18 @@ body {
 }
 #landing .hacks-wrapper .hack {
   margin: 0 7.5vw;
-  padding: 10px 15px;
-  font-size: 2rem;
-  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
+  font-size: 30px;
   font-weight: 500;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
 }
 #landing .hack a {
   text-decoration: none;
+  padding: 10px 15px;
+  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
   color: #df6e5b;
 }
 #landing .scroll {
@@ -85,16 +89,19 @@ lord-icon {
   background: #061b25;
 }
 #we-are-sponsor .title {
-  font-size: 3rem;
+  font-size: 45px;
   font-weight: 500;
-  padding: 1em 0;
+  margin: 1em 0;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
+  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#we-are-sponsor .pb-1 {
+  padding-bottom: 2em;
+}
 #we-are-sponsor .description {
-  font-size: 1.3rem;
+  font-size: 25px;
   font-weight: 300;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fcc055;
@@ -124,7 +131,7 @@ lord-icon {
     font-size: 16px;
   }
   #we-are-sponsor .title {
-    font-size: 32px;
+    font-size: 34px;
   }
   #we-are-sponsor .description {
     font-size: 16px;
@@ -135,4 +142,47 @@ lord-icon {
   #we-are-sponsor .grid .brand {
     width: 30vw;
   }
+}
+
+#our-team {
+  min-height: 50vh;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#our-team .title {
+  text-align: left;
+  align-self: flex-start;
+  margin: 2% 0;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#our-team .illustration {
+  display: flex;
+  margin: 5vh 0;
+
+}
+#our-team .illustration .img-content-wrapper {
+  padding: 0 4vw;
+  display: flex;
+}
+#our-team .illustration .img-content-wrapper img, .hack img {
+  width: 100px;
+}
+#our-team .illustration .img-content-wrapper .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2vw;
+  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#our-team .illustration .img-content-wrapper .content-wrapper h3 {
+  font-size: 2em;
+}
+#our-team .illustration .img-content-wrapper .content-wrapper p {
+  font-weight: 300;
 }

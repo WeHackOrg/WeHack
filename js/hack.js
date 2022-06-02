@@ -141,100 +141,100 @@ gsap.registerPlugin(ScrollTrigger);
         bodyScrollBar.addListener(ScrollTrigger.update);
         Scrollbar.initAll();
         
-gsap.to(".content h2", {
-    y: -200,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".timeline",
-        scrub: true
-    }, 
-    });
-    gsap.to(".content p", {
-    y: -150,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".timeline",
-        scrub: true
-    }, 
-    });
-    gsap.to(".content button", {
-    y: -100,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".timeline",
-        scrub: true
-    }, 
-    });
-    gsap.from(".timeline h2", {
-        opacity: 0.2,
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".timeline h2",
-            scrub: true
-        }, 
-    });
-    gsap.to(".timeline .wrapper", {
-    yPercent: -10,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".timeline .wrapper",
-        scrub: true
-    }, 
-    });
-    gsap.from(".timeline .row", {
-    opacity: 0,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".timeline h2",
-        scrub: true
-    }, 
-    });
-    gsap.to(".timeline .eyes", {
-        rotation: -5,
-        ease: "none",
-        scrollTrigger: {
-            trigger: ".timeline .eyes",
-            scrub: true
-        }, 
-    });
-        gsap.to(".timeline .image-2", {
-            yPercent: 5,
-            ease: "none",
-            duration: 3,
-            yoyo: true,
-            repeat: -1
-        });
-        gsap.from(".prizes", {
-            opacity: 0.2,
-            ease: "Power0.easeNone",
-            scrollTrigger: {
-                trigger: ".prizes h2",
-                scrub: true
-            }, 
-        });
-        gsap.to(".prizes img", {
-            yPercent: -10,
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".prizes img",
-                scrub: true
-            }, 
-        });
-        gsap.to(".prizes .grid", {
-            yPercent: -10,
-            ease: "none",
-            scrollTrigger: {
-                trigger: ".prizes .content",
-                scrub: true
-            }, 
-            });
-            gsap.from(".judges h2", {
-                opacity: 0.3,
-                ease: "none",
-                scrollTrigger: {
-                    trigger: ".judges h2",
-                    scrub: true
-                }, 
-            });
+// gsap.to(".content h2", {
+//     y: -200,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: ".timeline",
+//         scrub: true
+//     }, 
+//     });
+//     gsap.to(".content p", {
+//     y: -150,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: ".timeline",
+//         scrub: true
+//     }, 
+//     });
+//     gsap.to(".content button", {
+//     y: -100,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: ".timeline",
+//         scrub: true
+//     }, 
+//     });
+//     gsap.from(".timeline h2", {
+//         opacity: 0.2,
+//         ease: "none",
+//         scrollTrigger: {
+//             trigger: ".timeline h2",
+//             scrub: true
+//         }, 
+//     });
+//     gsap.to(".timeline .wrapper", {
+//     yPercent: -10,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: ".timeline .wrapper",
+//         scrub: true
+//     }, 
+//     });
+//     gsap.from(".timeline .row", {
+//     opacity: 0,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: ".timeline h2",
+//         scrub: true
+//     }, 
+//     });
+//     gsap.to(".timeline .eyes", {
+//         rotation: -5,
+//         ease: "none",
+//         scrollTrigger: {
+//             trigger: ".timeline .eyes",
+//             scrub: true
+//         }, 
+//     });
+//         gsap.to(".timeline .image-2", {
+//             yPercent: 5,
+//             ease: "none",
+//             duration: 3,
+//             yoyo: true,
+//             repeat: -1
+//         });
+//         gsap.from(".prizes", {
+//             opacity: 0.2,
+//             ease: "Power0.easeNone",
+//             scrollTrigger: {
+//                 trigger: ".prizes h2",
+//                 scrub: true
+//             }, 
+//         });
+//         gsap.to(".prizes img", {
+//             yPercent: -10,
+//             ease: "none",
+//             scrollTrigger: {
+//                 trigger: ".prizes img",
+//                 scrub: true
+//             }, 
+//         });
+//         gsap.to(".prizes .grid", {
+//             yPercent: -10,
+//             ease: "none",
+//             scrollTrigger: {
+//                 trigger: ".prizes .content",
+//                 scrub: true
+//             }, 
+//             });
+//             gsap.from(".judges h2", {
+//                 opacity: 0.3,
+//                 ease: "none",
+//                 scrollTrigger: {
+//                     trigger: ".judges h2",
+//                     scrub: true
+//                 }, 
+//             });
         
         
