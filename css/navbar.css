@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@font-face {
+  font-family: "sohne-var";
+  src: url("../font/f965fdf4.woff2");
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,11 +10,10 @@
 }
 body {
   width: 100%;
-  height: 100%;
 }
 
 .topnav {
-  font-family: "Roboto", sans-serif;
+  font-family: "sohne-var", sans-serif;
   width: 100%;
   z-index: 2;
   overflow: hidden;

@@ -1,10 +1,15 @@
+
+@font-face {
+  font-family: "sohne-var";
+  src: url("../font/f965fdf4.woff2");
+}
 footer {
   width: 100%;
   min-height: 20vh;
   background: #101C25;
   padding-top: 2vw;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "sohne-var", sans-serif;
 }
 footer .grid {
   display: grid;
@@ -18,7 +23,7 @@ footer .logo-container {
   align-items: center;
 }
 footer .logo {
-  width: 60%;
+  width: 30%;
 }
 footer .links {
   margin-top: 10%;
@@ -32,10 +37,13 @@ footer .links a {
   margin-bottom: 10px;
   position: relative;
 }
+footer .links a .icon {
+  font-size: 1.8vw;
+}
 footer .links a:after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #fcc055;
   height: 2px;
   width: 0;
   left: 0;
@@ -44,6 +52,10 @@ footer .links a:after {
 }
 footer .links a:hover:after {
   width: 100%;
+}
+.social-media div {
+  flex-direction: row;
+  column-gap: 20px;
 }
 footer .copyright {
   color: #fcc055;
