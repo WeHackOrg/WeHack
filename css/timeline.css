@@ -1,11 +1,11 @@
 .timeline {
   width: 100%;
-  background: #000;
+  background: #fff;
   padding: 5vh 0;
   position: relative;
 }
 .timeline .title {
-  color: #fff;
+  color: #000;
 }
 .wrapper {
   max-width: 1080px;
@@ -18,7 +18,7 @@
   position: absolute;
   height: 100%;
   width: 4px;
-  background: rgba(255, 255, 255);
+  background: #000;
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -33,7 +33,7 @@
   justify-content: flex-end;
 }
 .wrapper .row section {
-  color: #fff;
+  color: #000;
   border-radius: 10px;
   width: calc(50% - 40px);
   padding: 20px 10px;
@@ -49,13 +49,13 @@
 .row section .icon,
 .center-line .scroll-icon {
   position: absolute;
-  background: #fff;
+  background: #000;
   height: 40px;
   width: 40px;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: rgb(82, 20, 255, 0.9);
+  color: #fff;
   font-size: 17px;
 }
 .center-line .scroll-icon {
@@ -81,11 +81,17 @@
 .row section .details .title {
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
 }
 .row section p {
-  margin: 10px 0 17px 0;
+  margin: 14px 0 14px 0;
+}
+.row section p.align-right {
+  text-align: right;
+}
+.row section p.align-left {
+  text-align: left;
 }
 .row section .bottom a {
   text-decoration: none;
@@ -141,7 +147,7 @@
 }
 .image-2 {
   width: 30%;
-  top: 40%;
+  top: 20%;
   left: -15%;
 }
 .image-3 {

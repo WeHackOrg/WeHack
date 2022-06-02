@@ -25,9 +25,9 @@
 .judges .grid div div {
   margin: 5px 0;
   text-transform: uppercase;
-  font-family: "Thunder", sans-serif;
+  font-family: "sohne-var", sans-serif;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 25px;
 }
 .judges .grid .avatar {
   position: relative;
@@ -44,15 +44,15 @@
   transform: scale(0);
   transition: transform 0.5s;
 }
-.judges .grid .avatar:hover svg {
-  transform: scale(1);
-}
-.judges .grid .avatar:hover .first {
+/* .judges .grid .avatar:hover svg {
+  transform: scale(0.4);
+} */
+/* .judges .grid .avatar:hover .first {
   display: none;
 }
 .judges .grid .avatar:hover .second {
   display: block;
-}
+} */
 .criteria {
   background: #fff;
   display: flex;
