@@ -1,4 +1,8 @@
 @font-face {
+    font-family: SVN-AgudaBlack;
+    src: url("...font/SVN-Aguda-Black.otf");
+}
+@font-face {
   font-family: "Reso";
   src: url("../font/Reso-Bold.woff");
 }
@@ -6,7 +10,7 @@
   font-family: "sohne-var";
   src: url("../font/f965fdf4.woff2");
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,12 +34,10 @@ body {
 }
 #landing .title {
   font-size: 45px;
-  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  /* background: -webkit-linear-gradient(90deg, #326199, #4fb1a1, #fec055, #eb8d50, #df6e5b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  color: #101C25;
+  font-family: "sohne-var", "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #dc0008;
+  margin-top: 5rem;
 }
 #landing .description {
   width: 80%;
@@ -59,7 +61,7 @@ body {
   margin: 0 7.5vw;
   font-size: 30px;
   font-weight: 500;
-  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Reso";
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,8 +70,8 @@ body {
 #landing .hack a {
   text-decoration: none;
   padding: 10px 15px;
-  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
-  color: #df6e5b;
+  background: #80060e;
+  color: #fafafa;
 }
 #landing .scroll {
   position: absolute;
@@ -156,8 +158,9 @@ lord-icon {
   align-self: flex-start;
   margin: 2% 0;
   font-size: 45px;
-  font-weight: 500;
-  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "sohne-var", "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #80060e;
 }
 #our-team .illustration {
   display: flex;
@@ -181,7 +184,10 @@ lord-icon {
 
 }
 #our-team .illustration .img-content-wrapper .content-wrapper h3 {
-  font-size: 2em;
+  font-size: 45px;
+  font-family: "sohne-var", "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #dc0008;
 }
 #our-team .illustration .img-content-wrapper .content-wrapper p {
   font-weight: 300;

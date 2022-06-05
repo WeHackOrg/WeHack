@@ -73,8 +73,8 @@ body {
   .prizes .grid .first-prize {
     font-size: 32px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+    justify-content: baseline;
   }
   .prizes .grid-description {
     font-size: 16px;
@@ -107,7 +107,7 @@ body {
 .prizes .thcs, .prizes .thpt {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: baseline;
 }
 .prizes .thcs h3, .prizes .thpt h3 {
   font-weight: 400;
@@ -119,13 +119,17 @@ body {
   row-gap: 30px;
 }
 .prizes .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  align-items: baseline;
+  justify-content: baseline;
   margin: 20px 0;
 }
 .prizes .row h4 {
   font-size: 30px;
   font-weight: 400;
   margin-left: 2vw;
+}
+.info h2
+{
+  margin-top: 5rem;
 }

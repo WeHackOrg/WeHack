@@ -15,7 +15,11 @@ html {
 body {
     min-height: 100vh !important;
     width: 100%;
-    font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "sohne-var-bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.title
+{
+    margin-top: 10rem;
 }
 .container {
     min-height: 120vh;
@@ -29,11 +33,13 @@ body {
     font-family: "sohne-var-bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 45px;
     padding: 20px 0;
+    margin-top: 5rem;
 }
 .container p {
     padding: 5px 0;
     font-weight: 300;
     font-size: 18px;
+    font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .container ul {
     padding: 20px 0;

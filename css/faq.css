@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "sohne-var", sans-serif;
+  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff;
   color: #000;
 }
@@ -39,6 +39,7 @@ section {
 }
 
 .question {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +51,8 @@ section {
 }
 
 .answer {
+
+  font-family: "sohne-var-bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-height: 0;
   /*
 	max-height: 700px;
@@ -61,7 +64,7 @@ section {
 
 .answer p {
   padding-top: 1rem;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 300;
 }
 
