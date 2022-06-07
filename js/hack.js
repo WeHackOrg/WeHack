@@ -129,17 +129,17 @@
 }
 gsap.registerPlugin(ScrollTrigger);
 
-        let bodyScrollBar = Scrollbar.init(document.querySelector('#my-scrollbar'));
-        ScrollTrigger.scrollerProxy("body", {
-        scrollTop(value) {
-            if (arguments.length) {
-            bodyScrollBar.scrollTop = value;
-            }
-            return bodyScrollBar.scrollTop;
-        }
-        });
-        bodyScrollBar.addListener(ScrollTrigger.update);
-        Scrollbar.initAll();
+        // let bodyScrollBar = Scrollbar.init(document.querySelector('#my-scrollbar'));
+        // ScrollTrigger.scrollerProxy("body", {
+        // scrollTop(value) {
+        //     if (arguments.length) {
+        //     bodyScrollBar.scrollTop = value;
+        //     }
+        //     return bodyScrollBar.scrollTop;
+        // }
+        // });
+        // bodyScrollBar.addListener(ScrollTrigger.update);
+        // Scrollbar.initAll();
         
 // gsap.to(".content h2", {
 //     y: -200,
