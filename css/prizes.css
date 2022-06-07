@@ -107,7 +107,7 @@ body {
 .prizes .thcs, .prizes .thpt {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
 }
 .prizes .thcs h3, .prizes .thpt h3 {
   font-weight: 400;
@@ -119,15 +119,14 @@ body {
   row-gap: 30px;
 }
 .prizes .row {
-  display: grid;
-  align-items: baseline;
-  justify-content: baseline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px 0;
 }
 .prizes .row h4 {
   font-size: 30px;
   font-weight: 400;
-  margin-left: 2vw;
 }
 .info h2
 {
