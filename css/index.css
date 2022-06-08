@@ -29,24 +29,24 @@ body {
 }
 #landing {
   width: 100%;
-  height: 100vh;
+  min-height: 120vh;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 5vh;
   /* background: #101C25; */
 }
 #landing .title {
   font-size: 45px;
   font-family: "sohne-var", "Montserrat", sans-serif;
   font-weight: 900;
-  color: #dc0008;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 #landing .description {
   width: 80%;
-  padding: 5vh 9vw;
+  padding: 2vh 9vw;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 25px;
@@ -57,7 +57,7 @@ body {
   color: #fcc055;
 }
 #landing .hacks-wrapper {
-  padding-top: 3em;
+  padding-top: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,10 +72,14 @@ body {
   align-items: center;
   row-gap: 20px;
 }
+#landing .hack-3 {
+  position: relative;
+  bottom: 8px;
+}
 #landing .hack a {
   text-decoration: none;
   padding: 10px 15px;
-  background: #80060e;
+  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
   color: #fafafa;
 }
 #landing .scroll {
@@ -201,9 +205,7 @@ lord-icon {
 .countdown {
   color: #333;
   margin: 0 auto;
-  padding-top: 10vh;
   text-align: center;
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,11 +214,11 @@ lord-icon {
 
 .countdown h1 {
   font-weight: normal;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 .countdown h6 {
   font-size: 35px;
-  margin: 30px 0;
+  margin: 10px 0;
   font-weight: normal;
 }
 .countdown p {
