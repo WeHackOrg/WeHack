@@ -96,6 +96,10 @@ body {
   justify-content: center;
   font-family: "sohne-var",sans-serif;
 }
+.prizes h2
+{
+  color: #80060e;
+}
 .prizes .prizes-wrapper {
   width: 100%;
   justify-content: space-evenly;

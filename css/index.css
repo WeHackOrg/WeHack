@@ -44,6 +44,14 @@ body {
   font-weight: 900;
   margin-top: 1rem;
 }
+#landing h1
+{
+  color: #000;
+}
+#landing h2
+{
+  color: #80060e;
+}
 #landing .description {
   width: 80%;
   padding: 2vh 9vw;
