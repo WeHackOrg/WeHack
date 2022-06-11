@@ -80,10 +80,10 @@ body {
   align-items: center;
   row-gap: 20px;
 }
-#landing .hack-3 {
-  position: relative;
-  bottom: 8px;
+#landing .hack img {
+  height: 85px;
 }
+
 #landing .hack a {
   text-decoration: none;
   padding: 10px 15px;

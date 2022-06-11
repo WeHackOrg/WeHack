@@ -18,7 +18,7 @@
   position: absolute;
   height: 100%;
   width: 4px;
-  background: #000;
+  background: -webkit-linear-gradient(90deg, #ffe871, #ffbda8, #ffaa8f);
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
@@ -58,6 +58,7 @@
   color: #fff;
   font-size: 17px;
 }
+
 .center-line .scroll-icon {
   bottom: 0px;
   left: 50%;
@@ -179,4 +180,20 @@
   .row section .details .title {
     font-size: 18px;
   }
+}
+
+.wrapper .icon-last {
+  background: #ffe871 !important;
+}
+.wrapper .icon-1 {
+  background: #FEAA8F !important;
+}
+.wrapper .icon-2 {
+  background: #FFB59D !important;
+}
+.wrapper .icon-3 {
+  background:  #FFBFA5!important;
+}
+.wrapper .icon-4 {
+  background:  #FFD48B !important;
 }

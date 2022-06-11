@@ -106,7 +106,7 @@ body {
   display: flex;
 }
 .prizes img {
-  width: 30%;
+  width: 20%;
 }
 .prizes .thcs, .prizes .thpt {
   display: flex;
@@ -115,7 +115,7 @@ body {
 }
 .prizes .thcs h3, .prizes .thpt h3 {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
 }
 .prizes .column {
   display: flex;
@@ -128,7 +128,7 @@ body {
   margin: 0;
 }
 .prizes .row h4 {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
 }
 .info h2
