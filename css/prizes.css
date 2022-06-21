@@ -108,12 +108,12 @@ body {
 .prizes img {
   width: 20%;
 }
-.prizes .thcs, .prizes .thpt {
+.prizes .thcs, .prizes .thpt, .prizes .undergraduate {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.prizes .thcs h3, .prizes .thpt h3 {
+.prizes .thcs h3, .prizes .thpt h3, .prizes .undergraduate h3 {
   font-weight: 400;
   font-size: 20px;
 }
