@@ -1,0 +1,11 @@
+
+  .submission {
+    padding: 0 5vw 5vh 5vw;
+  }
+  .submission h2 {
+    color: #80060e;
+    margin-bottom: 20px;
+  }
+  .submission li {
+    font-weight: 300;
+  }
