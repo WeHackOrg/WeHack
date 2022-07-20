@@ -9,3 +9,9 @@
   .submission li {
     font-weight: 300;
   }
+.submission .text-red {
+    color: red;
+}
+.submission .text-bold {
+    font-weight: bold;
+}
