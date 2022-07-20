@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "GLD Display";
+  src: url("../font/Untitled.woff2");
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../font/Thunder.woff");
+}
+
 .judges {
   background: #fff;
   padding: 5vh 0;
@@ -8,9 +17,11 @@
 
 .judges .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content;
   row-gap: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .judges .grid div {
   display: flex;
@@ -22,7 +33,7 @@
   width: 60%;
   margin: 5px;
 }
-.judges .grid div div {
+.judges .grid .name {
   margin: 5px 0;
   text-transform: uppercase;
   font-family: "sohne-var", sans-serif;
@@ -68,20 +79,28 @@
   font-size: 1.2rem;
 }
 
+.judges .grid .title
+{
+  font-size: 20px;
+  font-family: "sohne-var-bold", sans-serif;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
 @media only screen and (max-width: 768px) {
   .judges .grid {
     grid-template-columns: 1fr;
   }
 
-  .judges .grid div div {
-    font-size: 24px;
-  }
   .judges .grid .avatar svg {
     display: none;
   }
+
   .criteria p {
     width: 80vw;
     padding: 2em 0;
     font-size: 16px;
   }
 }
+
+
