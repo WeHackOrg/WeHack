@@ -25,4 +25,19 @@ function includeHTML() {
         return;
     }
     }
+    const chk = document.getElementById('chk');
+    let lang = window.location.href;
+    if (lang.search("vn") == -1) {
+        chk.checked = false;
+    } else {
+        chk.checked = true;
+    }
+    chk.addEventListener('change', () => {
+        let page = lang.slice(lang.lastIndexOf("/"));
+        if (chk.checked == true) {
+            window.location.href = `http://127.0.0.1:5500/vn${page}`;
+        } else {
+            window.location.href = `http://127.0.0.1:5500${page}`;
+        }
+    });
 };
