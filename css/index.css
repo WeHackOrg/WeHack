@@ -163,41 +163,42 @@ lord-icon {
   }
 }
 
-#our-team {
+#our-team, #our-sponsors {
   min-height: 50vh;
   padding: 5vh 5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#our-team .title {
+#our-team .title, #our-sponsors .title {
   text-align: left;
   align-self: flex-start;
-  margin: 2% 0;
+  margin: 1% 0;
   font-size: 45px;
   font-family: "sohne-var", "Montserrat", sans-serif;
   font-weight: 900;
   color: #80060e;
 }
-#our-team .illustration {
+#our-team .illustration{
   display: flex;
-  margin: 5vh 0;
+  margin: 1vh 0;
 
 }
-#our-team .illustration .img-content-wrapper {
+#our-team .illustration .img-content-wrapper, #our-sponsors .illustration .img-content-wrapper1{
   padding: 0 4vw;
   display: flex;
 }
-#our-team .illustration .img-content-wrapper img, .hack img {
+#our-team .illustration .img-content-wrapper img, .hack img .hack img {
   width: 100px;
 }
-#our-team .illustration .img-content-wrapper .content-wrapper {
+#our-team .illustration .img-content-wrapper .content-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-left: 2vw;
   font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
 
 }
 #our-team .illustration .img-content-wrapper .content-wrapper h3 {
@@ -260,3 +261,37 @@ lord-icon {
 {
   margin-top: 6rem;
 }
+
+
+#our-sponsors .illustration .img-content-wrapper1, #our-sponsors .illustration .img-content-wrapper2
+{
+  font-size: 20px;
+  font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  color: black;
+  display: grid;
+  align-items: center;
+}
+
+ #our-sponsors .illustration .img-content-wrapper1 img
+ {
+      width:  400px;
+ }
+
+ #our-sponsors .illustration .img-content-wrapper2 img
+ {
+      width:  100px;
+ }
+
+ #our-sponsors .illustration .img-content-wrapper1 
+{
+  padding: 0 0vw;
+}
+ #our-sponsors .illustration .img-content-wrapper2 
+{
+  padding: 0 2vw;
+}
+#our-sponsors .illustration {
+  display: flex;
+  margin-bottom: 0;
+
