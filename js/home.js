@@ -22,12 +22,17 @@
   
           const now = new Date().getTime(),
                 distance = countDown - now;
-  
+          if (distance < 0) {
+            document.getElementById("days").innerText = 0;
+            document.getElementById("hours").innerText = 0;
+            document.getElementById("minutes").innerText = 0;
+            document.getElementById("seconds").innerText = 0;
+          } else {
           document.getElementById("days").innerText = Math.floor(distance / (day)),
             document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
             document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-  
+          }
           
           //seconds
         }, 0)

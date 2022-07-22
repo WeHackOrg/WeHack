@@ -35,9 +35,9 @@ function includeHTML() {
     chk.addEventListener('change', () => {
         let page = lang.slice(lang.lastIndexOf("/"));
         if (chk.checked == true) {
-            window.location.href = `http://127.0.0.1:5500/vn${page}`;
+            window.location.href = `/vn${page}`;
         } else {
-            window.location.href = `http://127.0.0.1:5500${page}`;
+            window.location.href = `${page}`;
         }
     });
 };
