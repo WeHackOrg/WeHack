@@ -18,7 +18,7 @@ html {
 body {
     min-height: 100vh !important;
     width: 100%;
-    font-family: "sohne-var", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .container {
     height: 80vh;
@@ -27,6 +27,6 @@ body {
     justify-content: center;
 }
 .container h1 {
-    font-family: "sohne-var-bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 3em;
 }
